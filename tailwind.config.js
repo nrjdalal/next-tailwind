@@ -1,3 +1,4 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
 
 module.exports = {
@@ -33,7 +34,11 @@ module.exports = {
       white: colors.white,
       yellow: colors.yellow,
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        barlow: ['Barlow', ...defaultTheme.fontFamily.serif],
+      },
+    },
   },
   variants: {
     extend: {},

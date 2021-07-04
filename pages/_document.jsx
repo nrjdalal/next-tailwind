@@ -21,7 +21,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body className="font-barlow tracking-wide">
+        <body>
           <Main />
           <NextScript />
         </body>
